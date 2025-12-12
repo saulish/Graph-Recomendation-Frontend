@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #16423C;
+    width:100%;
+    height:100%;
+}
+header{
+    display: flex;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 1%;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C4DAD2;
+    font-size: 100%;
+
+}
+nav{
+    display: flex;
+    align-self:self-end;
+    justify-content: space-around;
+}
+h1,h2{
+    padding: 5%;
+    color: #C4DAD2;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+h2{
+    font-size: 300%;
+}
+h3{
+    text-align: left;
+    color: #16423C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    padding: 0.1%;
+}
+h4{
+    text-align: left;
+    color: #16423C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 1%;
+    border-color: black 1px;
+}
+thead,tbody{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #C4DAD2;
+    font-size: 100%;
+}
+td{
+    border: 1px solid white;
+    padding: 5px;
+}
+tr{
+    border: 1px solid white;
+    padding: 5px;
+}
+button{
+    display: block; 
+    background-color: #C4DAD2;
+    color: #16423C;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 5% auto 0;
+
+}
+button:hover{
+    background-color: #E9EFEC;
+    font-size: 125%;
+    color: #16423C;
+}
+#table_datos, #back{
+    display: none;
+}
+#cy {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+#network {
+    display: none;
+    width: 100%;
+    height: 80vh;
+    border: 1px solid lightgray;
+}   
+#netRecomendation {
+    display: none;
+    width: 50%;
+    height: 80vh;
+    border: 1px solid lightgray;
+}   
